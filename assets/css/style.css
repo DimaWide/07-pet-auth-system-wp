@@ -1,0 +1,121 @@
+/* General form styles */
+.form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto 0;
+    margin-bottom: 50px;
+
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-system-wp .sct-footer {
+    display: none;
+}
+
+
+/* Different forms (profile, registration) */
+.form--profile {}
+
+.form--register {}
+
+/* Form title */
+.form__title {
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form__label {
+    font-weight: 500;
+    margin-bottom: 7px;
+    font-size: 15px;
+    display: inline-block
+}
+
+/* Form fields */
+.form__field {
+    margin-bottom: 20px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.2s ease;
+}
+
+/* Input focus states */
+.form__input--username:focus,
+.form__input--email:focus,
+.form__input--password:focus,
+.form__input--confirm-password:focus {
+    border-color: #007bff;
+}
+
+.form__error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.form__error--username {
+    font-style: italic;
+}
+
+.form__error--general {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Button states */
+.form__button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.form__button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles for links and footers */
+.form__footer {
+    text-align: center;
+    font-size: 14px;
+        font-weight: 500;
+    color: #333;
+    margin-top: 28px;
+
+    padding-top: 20px;
+    border-top: 1px solid #afafaf;
+}
+
+.form__footer a {
+    font-weight: 500;
+}
+
+.form__link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}

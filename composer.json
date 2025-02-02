@@ -1,0 +1,15 @@
+{
+    "name": "dima/auth-system-wp",
+    "autoload": {
+        "psr-4": {
+           "AuthSystemWp\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DmitriyChiroky",
+            "email": "dwchirocky@gmail.com"
+        }
+    ],
+    "require": {}
+}
