@@ -2,7 +2,7 @@
 
 This project is a **custom authentication system for WordPress**, including user registration, login, and profile management.
 
-![Screenshot](https://github.com/DimaWide/06-pet-wp-blog-theme/blob/main/img/screencapture-dw-web-dev-online-1.jpg)
+![Screenshot](https://github.com/DimaWide/07-pet-auth-system-wp/blob/main/assets/img/login.png)
 
 ## 📂 Project Structure
 
