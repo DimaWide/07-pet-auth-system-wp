@@ -4,7 +4,7 @@
  * Plugin Name: Auth System Wp
  * Description: Plugin for custom registration, authentication, and user profile.
  * Version: 1.0
- * Author: Your Name
+ * Author: Dmitriy Chirokij
  * License: GPL2
  */
 
