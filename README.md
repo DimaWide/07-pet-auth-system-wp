@@ -1,6 +1,6 @@
 ## Auth System Wp
 
-This project is a **custom authentication system for WordPress**, including user registration, login, and profile management.
+This plugin is a **custom authentication system for WordPress**, including user registration, login, and profile management.
 
 ![Screenshot](https://github.com/DimaWide/07-pet-auth-system-wp/blob/main/assets/img/login.png)
 
