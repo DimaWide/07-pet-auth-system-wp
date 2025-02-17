@@ -32,16 +32,11 @@ class ProfileController {
         $user = UserModel::get_current_user(); 
 
         // Retrieve data from the form
-        $new_username = sanitize_text_field($_POST['username']);
         $new_email = sanitize_email($_POST['email']);
         $new_password = $_POST['password'] ?? '';
         $confirm_password = $_POST['confirm_password'] ?? '';
 
         // Validation
-        if (empty($new_username)) {
-            $this->errors['username'] = 'Username is required.';
-        }
-
         if (empty($new_email)) {
             $this->errors['email'] = 'Email is required.';
         } elseif (!is_email($new_email)) {
@@ -55,7 +50,7 @@ class ProfileController {
 
         // If no errors, update the user data using the model
         if (empty($this->errors)) {
-            $update_result = $user->update($new_username, $new_email, $new_password);
+            $update_result = $user->update($user->get_username() , $new_email, $new_password);
 
             if ($update_result === true) {
                 wp_redirect(home_url('/profile/'));
